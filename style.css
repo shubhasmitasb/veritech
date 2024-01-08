@@ -1,0 +1,75 @@
+.cardurgent img {
+  width: 50%;
+  /* border-radius: 100%; */
+  padding: 1rem;
+}
+.urgentwork h2 {
+  text-align: center;
+  padding: 1rem 3rem 1rem 3rem;
+  color: white;
+  background-color: rgb(223, 85, 221);
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-weight: 700;
+}
+.urgentwork p {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  font-size: 18px;
+}
+hr {
+  border: 3px solid rgb(223, 85, 221);
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.urgentwork h1 {
+  font-weight: 700;
+  margin: 1rem;
+  text-align: center;
+}
+.urgentwork h3 {
+  text-align: center;
+  padding: 1rem 3rem 1rem 3rem;
+  color: white;
+  background-color: rgb(223, 85, 221);
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+.urgentworkinner {
+  display: flex;
+  justify-content: center;
+}
+.cardurgent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .urgentwork p {
+    width: 100%;
+    text-align: justify;
+    padding: 0rem 0.5rem 0rem 0.5rem;
+  }
+  hr {
+    width: 70%;
+  }
+  .urgentwork h3 {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .urgentworkinner {
+    flex-direction: column;
+  }
+}
